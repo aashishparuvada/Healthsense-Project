@@ -185,7 +185,7 @@ terraform destroy
 
 Feel free to reach out for collaborations or queries!
 
-- GitHub: [your-github-username](https://github.com/aashishparuvada)
-- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/aashishparuvada)
+- GitHub: [aashishparuvada](https://github.com/aashishparuvada)
+- LinkedIn: [Aashish Paruvada](https://www.linkedin.com/in/aashishparuvada)
 
 ---
