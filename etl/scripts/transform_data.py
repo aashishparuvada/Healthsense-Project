@@ -11,7 +11,7 @@ def transform_data():
 
     try:
         df_start = pd.read_csv(input_path)
-        logging.info(f"Loaded raw data with shape: {df.shape}")
+        logging.info(f"Loaded raw data with shape: {df_start.shape}")
 
         # Transformation (I assumed those were cases on that particular date but they are actually appending everyday, 
         # so the last column would contain aggregate, logic for the same is written below this logic)
