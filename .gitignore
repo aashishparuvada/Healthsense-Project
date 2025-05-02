@@ -12,3 +12,9 @@ venv/
 # Others
 __pycache__/
 *.log
+
+.env
+rough.py
+rough.ipynb
+
+*.DS_Store
