@@ -4,5 +4,5 @@ python-dotenv
 sqlalchemy
 psycopg2-binary
 
-apache-airflow==2.7.3
 apache-airflow-providers-postgres==5.7.1
+apache-airflow-providers-common-io==1.2.0

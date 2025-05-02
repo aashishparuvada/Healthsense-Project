@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-deployment
+  namespace: healthsense
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: healthsense-api
+  template:
+    metadata:
+      labels:
+        app: healthsense-api
+    spec:
+      containers:
+      - name: healthsense-api
+        image: gcr.io/healthsense-platform/healthsense-api
+        ports:
+          - containerPort: 8000
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "250m"
+          limits:
+            memory: "256Mi"
+            cpu: "500m"

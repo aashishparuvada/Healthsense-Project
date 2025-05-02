@@ -18,3 +18,8 @@ rough.py
 rough.ipynb
 
 *.DS_Store
+
+# Ignore Docker-related secrets
+docker-compose.override.yml
+.docker.env
+*-secret.yaml
